@@ -1,0 +1,63 @@
+/* This is my new stylesheet */
+
+/* CSS */
+
+
+h1 {
+  color: #FFFFFF;
+  background-color: #80CBB3;
+}
+
+/* CSS */
+.specialp {
+ color: #0000ff;
+}
+
+/* CSS */
+#specialid {
+ background-color: #00ff00;
+}
+
+/* CSS */
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #00ff00;
+}
+
+a:visited {
+ color: #0000ff;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+#divexample {
+  color: #0000FF;
+  background-color: #FFFF00;
+}
+
+.spanstyle {
+  color: #00FF00;
+}
+
+/* CSS */
+a {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+footer {
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
