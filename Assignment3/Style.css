@@ -1,0 +1,64 @@
+/* This is my new stylesheet */
+
+/* CSS for Assignment 3 */
+
+
+h1 {
+  color: #FFFFFF;
+  background-color: #E92929;
+}
+
+h2{
+  color: #0C3AF2;
+  background-color: #F2870C;
+}
+
+h3{
+  border: thick double #32a1ce;
+}
+
+
+a:link {
+ color: #E92929;
+}
+
+a:visited {
+ color: #3FBF3F;
+}
+
+a:active {
+ color: #00ffff;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+#contact {
+font-family: "Gill Sans", sans-serif;
+}
+
+#expanded {
+  font-stretch: 200%;
+}
+
+#happy {
+  text-decoration: underline overline #FF3028;
+}
+
+.thinking{
+  cursor: wait;
+}
+
+.game {
+  border: 4mm ridge rgba(170, 50, 220, .6);
+}
+
+.spanstyle {
+  background-color: #FFFF00;
+}
+
+
+footer {
+  font-size: 9px;
+}
