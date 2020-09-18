@@ -1,0 +1,46 @@
+/* CSS */
+.bordertop {
+  border-top: 1px solid #ff0000;
+}
+
+.borderbottom {
+  border-bottom: 1px solid #00ff00;
+}
+
+.borderright {
+  border-right: 1px solid #0000ff;
+}
+
+.borderleft {
+  border-left: 1px solid #ff00ff;
+}
+
+.rainbowborder {
+  border-top: 1px solid #ff0000;
+  border-bottom: 1px solid #00ff00;
+  border-right: 1px solid #0000ff;
+  border-left: 1px solid #ff00ff;
+}
+
+.borderbottom {
+  border-bottom: 1px solid #00ff00;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.blockimg {
+  display: block;
+}
+
+nav ul {
+  list-style-type: circle; /* none, disc, circle, square */
+  margin:0;
+  padding: 0;
+}
+
+nav li {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+}
