@@ -1,0 +1,73 @@
+.topelement{
+  font-size: 12pt;
+  color: #7F3FBF;
+  letter-spacing: 5px;
+}
+
+.increase{
+  font-size: 25pt;
+}
+
+h1{
+  margin-top: 10px;
+  line-height: 110px;
+  font-size: 85pt;
+  text-align: center;
+  color:#FF0000;
+}
+
+
+body{
+  background-image:url(../images/Lakeith.jpg);
+  background-repeat: no-repeat;
+  background-color: #FBD335;
+  font-family: Impact;
+}
+
+.pinktext{
+  color: #FF00F6;
+}
+
+.purpletext{
+  font-size: 15pt;
+  color: #7F3FBF;
+}
+
+.words{
+  word-spacing: 1px;
+}
+
+#stars{
+  color: #FF0000;
+  text-align: justify;
+  line-height: 35px;
+  font-size: 23pt;
+  margin-top: 500px;
+  margin-bottom: 10px;
+}
+
+#border{
+  width: 575px;
+  border-top: 5px solid #7F3FBF;
+  border-bottom: 5px solid #7F3FBF;
+}
+
+a:link{
+  color: #FF00F6;
+  text-decoration: none;
+  display: block;
+  margin-left: 175px;
+}
+
+a:hover{
+  color: #F40000;
+  text-decoration-line: underline;
+}
+
+footer{
+  line-height: 30px;
+}
+
+#align{
+  margin-left: 165px;
+}
