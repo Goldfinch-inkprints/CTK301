@@ -1,0 +1,109 @@
+body{
+  background-image: url(../images/a62.png);
+  font-family: Georgia;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#wrapper {
+  margin: 1em auto;
+  margin-bottom: 0;
+  padding: 1em;
+  width: 960px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+
+h1 {
+  margin:0;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 3px solid #000000;
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+  font-weight: normal;
+  grid-column: span 12;
+}
+
+h2{
+  margin: 0;
+  margin-bottom: 1em;
+  padding-bottom: 10px;
+  font-family: helvetica;
+  border-bottom: 4px solid #000000;
+}
+#boldtext{
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
+a:hover{
+  color: blue;
+  text-decoration-color: blue;
+  text-decoration-line: underline;
+}
+nav{
+   grid-column: span 3;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  padding: 0;
+  margin-bottom: 20px;
+  width: 220px;
+  border: 1px solid red;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  background-color: #ff0000;
+  font-weight: normal;
+  font-family: helvetica;
+  padding: 15px;
+}
+
+nav li a:hover{
+  text-decoration: none;
+  color: white;
+  background-color:#ba0000;
+
+}
+
+main{
+  grid-column: span 9;
+}
+
+
+.floatimage {
+  padding: 10px;
+  margin: 0 20px 20px 0;
+  border: 4px solid #000000;
+  float: left;
+}
+
+footer{
+  margin: 0 auto;
+  padding: 10px;
+  border: 3px solid #000000;
+  border-top: 0;
+  background-color: #ffffff;
+  text-align: center;
+  color: white;
+  font: italic normal 12pt Verdana;
+  grid-column: span 12;
+  background-color: red;
+  width: 972px;
+}
