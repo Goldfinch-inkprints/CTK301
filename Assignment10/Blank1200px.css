@@ -33,7 +33,7 @@ margin: 0;
 
 nav{
 grid-column: span 12;
-font-family: sans-serif;
+font-family: 'Fira Sans Condensed', sans-serif;
 font-size: 32px;
 margin-bottom: 20px;
 }
@@ -60,13 +60,15 @@ nav li a{
   display: inline;
   background-color: #62ECE3;
   color: black;
-  font-family:sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   padding-left: 20px;
   text-decoration:none;
   font-weight: lighter;
+  transition: font-weight .05s;
 }
 a:hover{
   font-weight:bold;
+
 }
 
 
@@ -76,6 +78,7 @@ main{
   font-family: Georgia;
   font-size: 20px;
   margin-left: 0;
+  line-height: 1.75;
 
 }
 
@@ -91,7 +94,7 @@ main{
 
 #centerali{
   margin: 30px;
-  margin-left: 0;
+  margin-left: -55px;
   padding: 0;
 }
 
@@ -108,23 +111,29 @@ margin: 24px;
 
 }
 
+
 .intro{
 background-color: #9DA0F5;
 margin:24px;
 padding: 34px;
 font-size: 30px;;
 text-align:justify;
+border-radius: 10px;
+
 }
 
 .blocklist{
   display:block;
   margin: 24px;
   padding: 100px;
-  margin-left: 0;
+  margin-left: -15px;
   font-size: 48px;
   text-align:center;
   border: black solid 6px;
   background-color: #9DA0F5;
+  text-shadow: 2px 2px 2px grey;
+  border-radius: 40px;
+
 }
 
 h2{
@@ -136,6 +145,7 @@ h2{
 .imgrow {
 grid-column: span 4;
 margin: 6px;
+box-shadow: 0 8px 6px -6px black;
 }
 
 footer{
@@ -145,7 +155,13 @@ font-size: 15px;
 padding:24px;
 padding-left: 1000px;
 background-color: #F1AF2A;
-text-decoration: underline;
+}
+
+footer a{
+  font-size:40px;
+  text-decoration: none;
+  padding: 2px;
+
 }
 
 #erase{
