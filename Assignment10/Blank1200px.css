@@ -1,3 +1,9 @@
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
 body {
   background-color: #999999;
 }
@@ -92,9 +98,14 @@ main{
   text-align:right;
 }
 
+#paraspace{
+  margin-bottom: 300px;
+}
+
 #centerali{
   margin: 30px;
   margin-left: -55px;
+  margin-top: 150px;
   padding: 0;
 }
 
