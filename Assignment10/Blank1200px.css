@@ -1,7 +1,4 @@
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
+
 
 .scroll-top{
        position: fixed;
@@ -15,6 +12,7 @@
    .container {
      position: relative;
      width: 50%;
+     margin: auto;
    }
    .logo {
   display: inline-block;
@@ -86,7 +84,8 @@ button:hover {
 
 
 body {
-  background-color: #999999;
+  background: rgb(98,236,227);
+background: linear-gradient(180deg, rgba(98,236,227,1) 0%, rgba(157,160,245,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 #wrapper {
@@ -230,12 +229,13 @@ text-align: center;
 .blocklist{
   display:block;
   margin: 24px;
-  padding: 100px;
+  padding: 50px;
   margin-left: -15px;
   font-size: 48px;
   text-align:center;
   border: black solid 6px;
-  background-color: #9DA0F5;
+  background: rgb(98,236,227);
+background: radial-gradient(circle, rgba(98,236,227,1) 40%, rgba(157,160,245,1) 100%);
   text-shadow: 2px 2px 2px grey;
   border-radius: 40px;
 
