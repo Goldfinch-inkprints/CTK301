@@ -194,6 +194,11 @@ section{
 
 }
 
+section a {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
 
 #centerali{
 margin: 100px 0 0 -100px;
